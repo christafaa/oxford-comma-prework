@@ -6,6 +6,7 @@ def oxford_comma(array)
     array.join(' and ')
   else
     result = ""
+    array.each_with_index ||
 
 
   end
