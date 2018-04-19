@@ -13,5 +13,6 @@ def oxford_comma(array)
         result += "#{ele}, "
       end
     end
+    result
   end
 end
