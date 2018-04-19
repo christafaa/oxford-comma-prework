@@ -7,7 +7,7 @@ def oxford_comma(array)
   else
     result = ""
     array.each_with_index do |ele, idx|
-
+      result += "#{ele}, "
     end
   end
 end
