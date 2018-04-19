@@ -9,9 +9,9 @@ def oxford_comma(array)
     array.each_with_index do |ele, idx|
       if idx == array.length - 1
         result += "and #{ele}"
-
-      
-      result += "#{ele}, "
+      else
+        result += "#{ele}, "
+      end
     end
   end
 end
